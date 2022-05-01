@@ -1,0 +1,62 @@
+{
+    "name": "ferramentas-do-marlon-passos",
+    "type": "module",
+    "displayName": "Ferramentas do Marlon Passos 🛠",
+    "description": "Ferramentas do Marlon Passos 🛠",
+    "publisher": "1marlonpassos",
+    "version": "0.0.3",
+    "engines": {
+        "vscode": "^1.66.0"
+    },
+    "categories": [
+        "Snippets"
+    ],
+    "license": "GPL-3.0",
+    "icon": "icon.png",
+    "contributes": {
+        "snippets": [
+            {
+                "language": "json",
+                "path": "dist/snippets/snippets.json.code-snippets"
+            },
+            {
+                "language": "jsonc",
+                "path": "dist/snippets/snippets.json.code-snippets"
+            },
+            {
+                "language": "scss",
+                "path": "dist/snippets/snippets.css.code-snippets"
+            },
+            {
+                "language": "css",
+                "path": "dist/snippets/snippets.css.code-snippets"
+            },
+            {
+                "language": "typescript",
+                "path": "dist/snippets/snippets.ts.code-snippets"
+            },
+            {
+                "language": "javascript",
+                "path": "dist/snippets/snippets.js.code-snippets"
+            },
+            {
+                "language": "typescript react",
+                "path": "dist/snippets/snippets.tsx.code-snippets"
+            },
+            {
+                "language": "javascript react",
+                "path": "dist/snippets/snippets.jsx.code-snippets"
+            }
+        ]
+    },
+    "scripts": {
+        "dev": "gulp dev",
+        "push": "git push github master | git push gitlab master"
+    },
+    "devDependencies": {
+        "gulp": "^4.0.2",
+        "gulp-merge-json": "^2.1.2",
+        "typescript-json-schema": "^0.53.0",
+        "puppeteer": "^13.6.0"
+    }
+}
