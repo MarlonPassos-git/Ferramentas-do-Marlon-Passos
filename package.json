@@ -4,7 +4,7 @@
     "displayName": "Ferramentas do Marlon Passos 🛠",
     "description": "Ferramentas do Marlon Passos 🛠",
     "publisher": "1marlonpassos",
-    "version": "0.0.3",
+    "version": "0.0.4",
     "engines": {
         "vscode": "^1.66.0"
     },
@@ -57,5 +57,9 @@
         "gulp-merge-json": "^2.1.2",
         "typescript-json-schema": "^0.53.0",
         "puppeteer": "^13.6.0"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/MarlonPassos-git/Ferramentas-do-Marlon-Passos.git"
     }
 }
