@@ -1,0 +1,9 @@
+{
+	"console.log() simples": {
+		"prefix": "clg",
+		"body": [
+			"console.log($1);"
+		],
+		"description": ""
+	}
+}

@@ -42,11 +42,13 @@ async function dev () {
   await joinJSONs('css');
   console.log(time() + ' CSS snippets generated');
   await joinJSONs('ts');
-  console.log(time() + ' CSS snippets generated');
+  console.log(time() + ' TS snippets generated');
   await joinJSONs('js');
-  console.log(time() + ' CSS snippets generated');
-  await joinSchema();
-  console.log(time() + ' JSON schema generated');
+  console.log(time() + ' JS snippets generated');
+  await joinJSONs('tsx');
+  console.log(time() + ' TSX schema generated');
+  await joinJSONs('jsx');
+  console.log(time() + ' JSX schema generated');
 }
 
 const watchOptions = {
