@@ -53,13 +53,19 @@
         "dev": "gulp dev"
     },
     "devDependencies": {
+        "cz-conventional-changelog": "3.3.0",
         "gulp": "^4.0.2",
         "gulp-merge-json": "^2.1.2",
-        "typescript-json-schema": "^0.53.0",
-        "puppeteer": "^13.6.0"
+        "puppeteer": "^13.6.0",
+        "typescript-json-schema": "^0.53.0"
     },
     "repository": {
         "type": "git",
         "url": "https://github.com/MarlonPassos-git/Ferramentas-do-Marlon-Passos.git"
+    },
+    "config": {
+        "commitizen": {
+            "path": "./node_modules/cz-conventional-changelog"
+        }
     }
 }
