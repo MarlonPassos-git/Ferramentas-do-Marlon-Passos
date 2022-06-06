@@ -8,7 +8,7 @@ Essa extensão foi desenvolvida por Marlon Passos, e é um acumulador de ferrame
 - **Atalho:** ``efin``
 - **Descrição:** exporta função com interface com nome
 - **Tipo de Arquivo:** ``*.ts``, ``*.tsx``
-<img src="./doc/images/a.gif">
+<img src="./docs/images/a.gif">
 ---
 - **Atalho:** ``efsn``
 - **Descrição:** exporta função simples com nome
@@ -42,4 +42,4 @@ function () {
 
 
 ## 📚 Rereferia 
-[Veja a lista com todas os snippets disponíveis.]("doc/snippets.md")
+[Veja a lista com todas os snippets disponíveis.](docs/snippets.md)
