@@ -39,3 +39,7 @@ function () {
 }
 
 ```
+
+
+## 📚 Rereferia 
+[Veja a lista com todas os snippets disponíveis.]("/doc/snippets.md")
