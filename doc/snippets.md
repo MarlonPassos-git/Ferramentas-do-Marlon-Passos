@@ -53,4 +53,11 @@ export async function fileName($1) {
 }
 ```
 
+### ``edf``
+language: ``*.js`` | ``*.ts`` | ``*.tsx`` | ``*.jsx``
+```ts
+export default function fileName($1) {
+  $2    
+}
+```
 
