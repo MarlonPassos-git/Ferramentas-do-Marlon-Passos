@@ -98,3 +98,17 @@ export async function fileName({
   $2
 }
 ```
+
+### ``edfwot``
+language: ``*.js`` | ``*.ts`` | ``*.tsx`` | ``*.jsx``
+```ts
+type IFileName = {
+  $1  
+}
+
+export default function fileName({
+  $1
+}: IFileName) {
+  $2
+}
+```
