@@ -1,15 +1,15 @@
 {
-  "criar ": {
+  "base de um teste de arquivo": {
 		"prefix": "testbase",
 		"body": [
-      "import { $TM_FILENAME_BASE } from './$TM_FILENAME_BASE'",
+      "import { ${TM_FILENAME_BASE/.(test|spec)$//gm} } from './${TM_FILENAME_BASE/.(test|spec)$//gm}'",
       "",
       "describe('$1', () => {",
       "\tit('$2 ', () => {",
       "\t\tconst ${3:imput} = $4", 
       "\t\tconst ${5:imput} = $6",
       "\t\t",
-      "\t\texpect($TM_FILENAME_BASE($3)).toEqual($5)",
+      "\t\texpect(${TM_FILENAME_BASE/.(test|spec)$//gm}($3)).toEqual($5)",
       "\t})",
       "})",
       ""
@@ -17,6 +17,3 @@
 		"description": "base de um teste de unitario levando em cosideração que o nome do arquivo é o nome do teste, a função/classe tambem possui o mesmo nome do arquivo"
 	}
 }
-
-
-
