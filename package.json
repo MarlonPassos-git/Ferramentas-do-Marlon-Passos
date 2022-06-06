@@ -51,7 +51,8 @@
     },
     "scripts": {
         "dev": "gulp dev",
-        "prepare": "husky install"
+        "prepare": "husky install",
+        "commit": "git-cz"
     },
     "devDependencies": {
         "@commitlint/cli": "^17.0.2",
