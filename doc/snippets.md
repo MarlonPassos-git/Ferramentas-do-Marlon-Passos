@@ -127,3 +127,19 @@ export defalt async function fileName({
 }
 
 ```
+
+### ``testbase``
+language: ``*.ts``  
+```ts
+import { fileName } from './fileName'
+
+describe('$1', () => {
+  it('$2', () => {
+    const ${3:imput} = $4 
+    const ${5:result} = $6
+    
+    expect(fileName($3)).toEqual($5)
+  })
+})
+
+```
