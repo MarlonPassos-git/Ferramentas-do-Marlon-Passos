@@ -6,6 +6,8 @@ Na minha cabeça as os Snippets deveria refletir a primeira inicial de cada pala
 
 Onde estiver recrito "fileName" significa que o snippet pego o nome do arquivo e adicionou ao contexto. Ate a formatação de maiusculo e minusculo vai ser levado em consideração.
 
+Quando acontece uma situção de declaração de tipagem e uso ao mesmo tempo o valor da tipagem de uso vai ser ajustada automatimente depois do TAB
+
 # Referencia 
 
 
@@ -61,3 +63,24 @@ export default function fileName($1) {
 }
 ```
 
+### ``edaf``
+language: ``*.js`` | ``*.ts`` | ``*.tsx`` | ``*.jsx``
+```ts
+export default function fileName($1) {
+  $2    
+}
+```
+
+### ``efwot``
+language: ``*.js`` | ``*.ts`` | ``*.tsx`` | ``*.jsx``
+```ts
+type IFileName = {
+  $1  
+}
+
+export function fileName({
+  $1
+}: IFileName) {
+  $2
+}
+```
