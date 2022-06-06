@@ -72,7 +72,7 @@ export default function fileName($1) {
 ```
 
 ### ``efwot``
-language: ``*.js`` | ``*.ts`` | ``*.tsx`` | ``*.jsx``
+language: ``*.ts`` | ``*.tsx``
 ```ts
 type IFileName = {
   $1  
@@ -86,7 +86,7 @@ export function fileName({
 ```
 
 ### ``eafwot``
-language: ``*.js`` | ``*.ts`` | ``*.tsx`` | ``*.jsx``
+language: ``*.ts`` | ``*.tsx``
 ```ts
 type IFileName = {
   $1  
@@ -100,7 +100,7 @@ export async function fileName({
 ```
 
 ### ``edfwot``
-language: ``*.js`` | ``*.ts`` | ``*.tsx`` | ``*.jsx``
+language: ``*.ts`` | ``*.tsx``
 ```ts
 type IFileName = {
   $1  
@@ -111,4 +111,19 @@ export default function fileName({
 }: IFileName) {
   $2
 }
+```
+
+### ``edafwot``
+language: ``*.ts`` | ``*.tsx`` 
+```ts
+type IFileName = {
+  $1
+}
+
+export defalt async function fileName({
+  $1
+}: IFileName) {
+  $2
+}
+
 ```
