@@ -8,6 +8,8 @@ Onde estiver recrito "fileName" significa que o snippet pego o nome do arquivo e
 
 Quando acontece uma situção de declaração de tipagem e uso ao mesmo tempo o valor da tipagem de uso vai ser ajustada automatimente depois do TAB
 
+Se existir `${4:algum texto aleatorio}`, significa que o texto "algum texto aleatorio" vai ser inserido inicialmente, porem voce vai ter a opotinidade de apagalo ou modifica-lo. Usando apenas o controle dos TABs.
+
 # Referencia 
 
 
